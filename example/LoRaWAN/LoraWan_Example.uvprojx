@@ -928,11 +928,6 @@
               <FilePath>.\BSP\Leds\Src\leds.c</FilePath>
             </File>
             <File>
-              <FileName>lis2de12.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\BSP\lis2de12\Src\lis2de12.c</FilePath>
-            </File>
-            <File>
               <FileName>dht11.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\BSP\dht11\dht11.c</FilePath>

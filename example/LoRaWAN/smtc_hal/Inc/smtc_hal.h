@@ -60,7 +60,7 @@ extern "C" {
 #include "board-config.h"
 
 /* user peripheral */
-#include "lis2de12.h"
+//#include "lis2de12.h"
 #include "leds.h"
 #include "external_supply.h"
 

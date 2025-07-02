@@ -185,7 +185,7 @@ void hal_mcu_init_periph( void )
     external_supply_init( LNA_SUPPLY_MASK );
 
     /* LIS2DE12 accelerometer */
-    accelerometer_init( INT_1 );
+    //accelerometer_init( INT_1 );
 }
 
 static void hal_mcu_reinit_periph( void )

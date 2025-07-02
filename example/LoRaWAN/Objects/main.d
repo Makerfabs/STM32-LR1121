@@ -56,8 +56,7 @@
   Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_spi.h \
   smtc_hal\Inc\smtc_hal_uart.h smtc_hal\Inc\smtc_utilities.h \
   smtc_hal\Inc\smtc_hal_flash.h smtc_hal\Inc\smtc_hal_i2c.h \
-  lr1121\boards\Inc\board-config.h BSP\lis2de12\Inc\lis2de12.h \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\math.h BSP\Leds\Inc\leds.h \
+  lr1121\boards\Inc\board-config.h BSP\Leds\Inc\leds.h \
   BSP\external_supply\Inc\external_supply.h \
   lr1121\radio\Src\lr1121_modem_common.h \
   lr1121\radio\Src\lr1121_modem_modem.h \

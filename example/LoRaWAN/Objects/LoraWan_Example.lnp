@@ -102,7 +102,6 @@
 ".\objects\stm32l4xx_ll_utils.o"
 ".\objects\external_supply.o"
 ".\objects\leds.o"
-".\objects\lis2de12.o"
 ".\objects\dht11.o"
 ".\objects\main.o"
 ".\objects\apps_utilities.o"

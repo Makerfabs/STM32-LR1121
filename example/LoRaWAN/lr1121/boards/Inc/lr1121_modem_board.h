@@ -50,7 +50,7 @@ extern "C" {
 #include <string.h>
 #include "smtc_hal.h"
 #include "board-config.h"
-#include "lis2de12.h"
+//#include "lis2de12.h"
 #include "leds.h"
 #include "lr1121_modem_common.h"
 #include "lr1121_modem_modem.h"

@@ -1,0 +1,635 @@
+Dependencies for Project 'lr11xx-sdk_per', Target 'LR1120MB1DIS': (DO NOT MODIFY !)
+F (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Source\Templates\arm\startup_stm32l476xx.s)(0x64BA814E)(--cpu Cortex-M4.fp -g --pd "__MICROLIB SETA 1"-I.\RTE\_LR1120MB1DIS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 526"--pd "_RTE_ SETA 1"--pd "STM32L476xx SETA 1"--list startup_stm32l476xx.lst--xref -o .\build\lr1120mb1dis\startup_stm32l476xx.o--depend .\build\lr1120mb1dis\startup_stm32l476xx.d)
+F (..\..\..\common\apps_common.c)(0x64BCE1AD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/apps_common.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5AB0B850)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5AB0B854)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5AB0B854)
+I (..\..\..\..\common\inc\common_version.h)(0x64BA814E)
+I (..\..\..\common\apps_common.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\common\printers\lr11xx_radio_types_str.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio_types.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (..\..\..\common\apps_configuration.h)(0x64BA814E)
+I (..\..\..\common\lr11xx_hal_context.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_spi.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_status.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\inc\smtc_hal_mcu_spi_stm32l4.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_spi.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_gpio.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\inc\smtc_hal_mcu_gpio_stm32l4.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_gpio.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_system_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_regmem.h)(0x64BA814E)
+I (..\..\..\common\apps_utilities.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_system.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_driver_version.h)(0x64BA814E)
+I (..\..\..\..\common\inc\smtc_hal_dbg_trace.h)(0x64BA814E)
+I (..\..\..\..\common\inc\smtc_hal_options.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu.h)(0x64BA814E)
+I (..\..\..\..\common\inc\smtc_shield_pinout_mapping.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\common\inc\smtc_shield_pinout.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr11xx.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr11xx_types.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr1110mb1dis.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr1110mb1djs.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr1110mb1gis.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr1110mb1gjs.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr1120mb1dis.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr1120mb1djs.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr1120mb1gis.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr1120mb1gjs.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr1121mb1dis.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr1121mb1gis.h)(0x64BA814E)
+I (..\..\..\..\common\inc\smtc_dbpsk.h)(0x649D9E24)
+F (..\..\..\common\apps_version.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/apps_version.o -MD)
+I (..\..\..\common\apps_version.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (..\..\..\lr11xx_driver\src\lr11xx_system_types.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\common\apps_common.h)(0x64BA814E)
+I (..\..\..\common\printers\lr11xx_radio_types_str.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio_types.h)(0x64BA814E)
+I (..\..\..\common\apps_configuration.h)(0x64BA814E)
+I (..\..\..\common\lr11xx_hal_context.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_spi.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_status.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\inc\smtc_hal_mcu_spi_stm32l4.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_spi.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_gpio.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\inc\smtc_hal_mcu_gpio_stm32l4.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_gpio.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_types.h)(0x64BA814E)
+I (..\..\..\..\common\inc\smtc_hal_dbg_trace.h)(0x64BA814E)
+I (..\..\..\..\common\inc\smtc_hal_options.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu.h)(0x64BA814E)
+F (..\..\..\..\common\src\smtc_hal_dbg_trace.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/smtc_hal_dbg_trace.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5AB0B858)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5AB0B854)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5AB0B854)
+I (..\..\..\..\common\inc\uart_init.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_uart.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_status.h)(0x64BA814E)
+F (..\..\..\..\common\src\smtc_shield_pinout_mapping.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/smtc_shield_pinout_mapping.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5AB0B854)
+I (..\..\..\..\libs\smtc-shields\common\inc\smtc_shield_pinout.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_gpio.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_status.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\inc\smtc_hal_mcu_gpio_stm32l4.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_gpio.h)(0x64BA814E)
+F (..\..\..\..\common\src\common_version.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/common_version.o -MD)
+I (..\..\..\..\common\inc\common_version.h)(0x64BA814E)
+I (..\..\..\..\common\inc\smtc_hal_dbg_trace.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (..\..\..\..\common\inc\smtc_hal_options.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_status.h)(0x64BA814E)
+F (..\..\..\..\common\src\uart_init.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/uart_init.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5AB0B854)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5AB0B854)
+I (..\..\..\..\common\inc\uart_init.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5AB0B858)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_uart.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_status.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\inc\smtc_hal_mcu_uart_stm32l4.h)(0x64BA814E)
+F (..\main_per.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/main_per.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5AB0B854)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5AB0B854)
+I (..\..\..\common\apps_common.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\common\printers\lr11xx_radio_types_str.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio_types.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (..\..\..\common\apps_configuration.h)(0x64BA814E)
+I (..\..\..\common\lr11xx_hal_context.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_spi.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_status.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\inc\smtc_hal_mcu_spi_stm32l4.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_spi.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_gpio.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\inc\smtc_hal_mcu_gpio_stm32l4.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_gpio.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_system_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_types.h)(0x64BA814E)
+I (..\..\..\common\apps_utilities.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_regmem.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_system.h)(0x64BA814E)
+I (..\main_per.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu.h)(0x64BA814E)
+I (..\..\..\..\common\inc\smtc_hal_dbg_trace.h)(0x64BA814E)
+I (..\..\..\..\common\inc\smtc_hal_options.h)(0x64BA814E)
+I (..\..\..\..\common\inc\uart_init.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5AB0B858)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_uart.h)(0x64BA814E)
+F (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_ll_spi.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/stm32l4xx_ll_spi.o -MD)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_spi.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_bus.h)(0x64BA814E)
+F (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_ll_tim.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/stm32l4xx_ll_tim.o -MD)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_tim.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_bus.h)(0x64BA814E)
+F (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_ll_lptim.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/stm32l4xx_ll_lptim.o -MD)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_lptim.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_bus.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_rcc.h)(0x64BA814E)
+F (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_ll_usart.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/stm32l4xx_ll_usart.o -MD)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_usart.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_rcc.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_bus.h)(0x64BA814E)
+F (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_ll_rcc.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/stm32l4xx_ll_rcc.o -MD)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_rcc.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+F (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_ll_gpio.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/stm32l4xx_ll_gpio.o -MD)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_gpio.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_bus.h)(0x64BA814E)
+F (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_ll_pwr.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/stm32l4xx_ll_pwr.o -MD)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_pwr.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_bus.h)(0x64BA814E)
+F (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_ll_exti.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/stm32l4xx_ll_exti.o -MD)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_exti.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+F (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_ll_utils.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/stm32l4xx_ll_utils.o -MD)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_utils.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_rcc.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_system.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_pwr.h)(0x64BA814E)
+F (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Source\Templates\system_stm32l4xx.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/system_stm32l4xx.o -MD)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+F (..\..\..\..\lr11xx\lr11xx_driver\src\lr11xx_bootloader.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/lr11xx_bootloader.o -MD)
+I (..\..\..\lr11xx_driver\src\lr11xx_bootloader.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_bootloader_types.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\lr11xx_driver\src\lr11xx_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_hal.h)(0x64BA814E)
+F (..\..\..\..\lr11xx\lr11xx_driver\src\lr11xx_crypto_engine.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/lr11xx_crypto_engine.o -MD)
+I (..\..\..\lr11xx_driver\src\lr11xx_crypto_engine.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (..\..\..\lr11xx_driver\src\lr11xx_crypto_engine_types.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\lr11xx_driver\src\lr11xx_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_hal.h)(0x64BA814E)
+F (..\..\..\..\lr11xx\lr11xx_driver\src\lr11xx_driver_version.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/lr11xx_driver_version.o -MD)
+I (..\..\..\lr11xx_driver\src\lr11xx_driver_version.h)(0x64BA814E)
+F (..\..\..\..\lr11xx\lr11xx_driver\src\lr11xx_gnss.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/lr11xx_gnss.o -MD)
+I (..\..\..\lr11xx_driver\src\lr11xx_gnss.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_gnss_types.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\lr11xx_driver\src\lr11xx_system_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_regmem.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_hal.h)(0x64BA814E)
+F (..\..\..\..\lr11xx\lr11xx_driver\src\lr11xx_lr_fhss.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/lr11xx_lr_fhss.o -MD)
+I (..\..\..\lr11xx_driver\src\lr11xx_lr_fhss.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_lr_fhss_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr_fhss_v1_base_types.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (..\..\..\lr11xx_driver\src\lr11xx_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_hal.h)(0x64BA814E)
+F (..\..\..\..\lr11xx\lr11xx_driver\src\lr11xx_radio.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/lr11xx_radio.o -MD)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio_types.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\lr11xx_driver\src\lr11xx_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_regmem.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_hal.h)(0x64BA814E)
+F (..\..\..\..\lr11xx\lr11xx_driver\src\lr11xx_radio_timings.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/lr11xx_radio_timings.o -MD)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio_timings.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio_types.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_types.h)(0x64BA814E)
+F (..\..\..\..\lr11xx\lr11xx_driver\src\lr11xx_regmem.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/lr11xx_regmem.o -MD)
+I (..\..\..\lr11xx_driver\src\lr11xx_regmem.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\lr11xx_driver\src\lr11xx_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_hal.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+F (..\..\..\..\lr11xx\lr11xx_driver\src\lr11xx_system.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/lr11xx_system.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5AB0B850)
+I (..\..\..\lr11xx_driver\src\lr11xx_system.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_system_types.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (..\..\..\lr11xx_driver\src\lr11xx_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_hal.h)(0x64BA814E)
+F (..\..\..\..\lr11xx\lr11xx_driver\src\lr11xx_wifi.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/lr11xx_wifi.o -MD)
+I (..\..\..\lr11xx_driver\src\lr11xx_wifi.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_regmem.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\lr11xx_driver\src\lr11xx_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_wifi_types.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (..\..\..\lr11xx_driver\src\lr11xx_system_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_hal.h)(0x64BA814E)
+F (..\..\..\..\libs\smtc-hal-mcu-stm32l4\src\smtc_hal_mcu_gpio_stm32l4.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/smtc_hal_mcu_gpio_stm32l4.o -MD)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_gpio.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_status.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\inc\smtc_hal_mcu_gpio_stm32l4.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_gpio.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_bus.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_exti.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_system.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+F (..\..\..\..\libs\smtc-hal-mcu-stm32l4\src\smtc_hal_mcu_rng_stm32l4.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/smtc_hal_mcu_rng_stm32l4.o -MD)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_rng.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_status.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\inc\smtc_hal_mcu_rng_stm32l4.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_rng.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_bus.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_rcc.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+F (..\..\..\..\libs\smtc-hal-mcu-stm32l4\src\smtc_hal_mcu_uart_stm32l4.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/smtc_hal_mcu_uart_stm32l4.o -MD)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_uart.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_status.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\inc\smtc_hal_mcu_uart_stm32l4.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_usart.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_gpio.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_bus.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+F (..\..\..\..\libs\smtc-hal-mcu-stm32l4\src\smtc_hal_mcu_timer_stm32l4.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/smtc_hal_mcu_timer_stm32l4.o -MD)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_timer.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_status.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\inc\smtc_hal_mcu_timer_stm32l4.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_bus.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_rcc.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_lptim.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+F (..\..\..\..\libs\smtc-hal-mcu-stm32l4\src\smtc_hal_mcu_stm32l4.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/smtc_hal_mcu_stm32l4.o -MD)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_rcc.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_system.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_pwr.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_bus.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_utils.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_status.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+F (..\..\..\..\libs\smtc-hal-mcu-stm32l4\src\smtc_hal_mcu_spi_stm32l4.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/smtc_hal_mcu_spi_stm32l4.o -MD)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_spi.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_gpio.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_bus.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_system.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_spi.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_status.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\inc\smtc_hal_mcu_spi_stm32l4.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+F (..\..\..\..\lr11xx\common\lr11xx_hal.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/lr11xx_hal.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (..\..\..\lr11xx_driver\src\lr11xx_hal.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_spi.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_status.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu\inc\smtc_hal_mcu_gpio.h)(0x64BA814E)
+I (..\..\..\common\lr11xx_hal_context.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\inc\smtc_hal_mcu_spi_stm32l4.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_spi.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\core_cm4.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_version.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_compiler.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\cmsis_armclang.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Core\Include\mpu_armv7.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\inc\smtc_hal_mcu_gpio_stm32l4.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-hal-mcu-stm32l4\third_party\STM32CubeL4\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_gpio.h)(0x64BA814E)
+F (..\..\..\..\libs\smtc-shields\lr11xx\src\smtc_shield_lr11xx_common.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/smtc_shield_lr11xx_common.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-shields\common\inc\smtc_shield_pinout.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr11xx_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_system.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_system_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio_types.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr11xx_common.h)(0x64BA814E)
+F (..\..\..\..\libs\smtc-shields\lr11xx\src\smtc_shield_lr11x0_common.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/smtc_shield_lr11x0_common.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr11xx_types.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\common\inc\smtc_shield_pinout.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_system.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_system_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio_types.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr11x0_common.h)(0x64BA814E)
+F (..\..\..\..\libs\smtc-shields\lr11xx\src\smtc_shield_lr11x1_common.c)(0x64BA814E)()
+F (..\..\..\..\libs\smtc-shields\lr11xx\src\smtc_shield_lr1110mb1dxs_common.c)(0x64BA814E)()
+F (..\..\..\..\libs\smtc-shields\lr11xx\src\smtc_shield_lr1110mb1gxs_common.c)(0x64BA814E)()
+F (..\..\..\..\libs\smtc-shields\lr11xx\src\smtc_shield_lr1110mb1dis.c)(0x64BA814E)()
+F (..\..\..\..\libs\smtc-shields\lr11xx\src\smtc_shield_lr1110mb1djs.c)(0x64BA814E)()
+F (..\..\..\..\libs\smtc-shields\lr11xx\src\smtc_shield_lr1110mb1gis.c)(0x64BA814E)()
+F (..\..\..\..\libs\smtc-shields\lr11xx\src\smtc_shield_lr1110mb1gjs.c)(0x64BA814E)()
+F (..\..\..\..\libs\smtc-shields\lr11xx\src\smtc_shield_lr1120mb1dxs_common.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/smtc_shield_lr1120mb1dxs_common.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr11xx_types.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\common\inc\smtc_shield_pinout.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_system.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_system_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio_types.h)(0x64BA814E)
+F (..\..\..\..\libs\smtc-shields\lr11xx\src\smtc_shield_lr1120mb1gxs_common.c)(0x64BA814E)()
+F (..\..\..\..\libs\smtc-shields\lr11xx\src\smtc_shield_lr1120mb1dis.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/smtc_shield_lr1120mb1dis.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr11xx_types.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\common\inc\smtc_shield_pinout.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_system.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_system_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_types.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio_types.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr1120mb1dxs_common.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr11xx_common.h)(0x64BA814E)
+I (..\..\..\..\libs\smtc-shields\lr11xx\inc\smtc_shield_lr11x0_common.h)(0x64BA814E)
+F (..\..\..\..\libs\smtc-shields\lr11xx\src\smtc_shield_lr1120mb1djs.c)(0x64BA814E)()
+F (..\..\..\..\libs\smtc-shields\lr11xx\src\smtc_shield_lr1120mb1gis.c)(0x64BA814E)()
+F (..\..\..\..\libs\smtc-shields\lr11xx\src\smtc_shield_lr1120mb1gjs.c)(0x64BA814E)()
+F (..\..\..\..\libs\smtc-shields\lr11xx\src\smtc_shield_lr1121mb1dis.c)(0x64BA814E)()
+F (..\..\..\..\libs\smtc-shields\lr11xx\src\smtc_shield_lr1121mb1gis.c)(0x64BA814E)()
+F (..\..\..\common\printers\lr11xx_bootloader_types_str.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/lr11xx_bootloader_types_str.o -MD)
+I (..\..\..\common\printers\lr11xx_bootloader_types_str.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_bootloader_types.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+F (..\..\..\common\printers\lr11xx_crypto_engine_types_str.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/lr11xx_crypto_engine_types_str.o -MD)
+I (..\..\..\common\printers\lr11xx_crypto_engine_types_str.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_crypto_engine_types.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+F (..\..\..\common\printers\lr11xx_gnss_types_str.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/lr11xx_gnss_types_str.o -MD)
+I (..\..\..\common\printers\lr11xx_gnss_types_str.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_gnss_types.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+F (..\..\..\common\printers\lr11xx_radio_types_str.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/lr11xx_radio_types_str.o -MD)
+I (..\..\..\common\printers\lr11xx_radio_types_str.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_radio_types.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+F (..\..\..\common\printers\lr11xx_system_types_str.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/lr11xx_system_types_str.o -MD)
+I (..\..\..\common\printers\lr11xx_system_types_str.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_system_types.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+F (..\..\..\common\printers\lr11xx_types_str.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/lr11xx_types_str.o -MD)
+I (..\..\..\common\printers\lr11xx_types_str.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_types.h)(0x64BA814E)
+F (..\..\..\common\printers\lr11xx_wifi_types_str.c)(0x64BA814E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../../common/inc -I ../../../../libs/smtc-hal-mcu/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Core/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Drivers/STM32L4xx_HAL_Driver/Inc -I ../../../../libs/smtc-hal-mcu-stm32l4/third_party/STM32CubeL4/Projects/STM32L476G-EVAL/templates/Inc -I ../../../../libs/smtc-shields/common/inc -I ../../../../libs/smtc-shields/lr11xx/inc -I ../../../common -I ../../../common/printers/ -I ../../../lr11xx_driver/src-I./RTE/_LR1120MB1DIS-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32L4xx_DFP/2.0.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32L476xx -DSTM32L476xx -DNUCLEO_L476RG -DLR11XX_DISABLE_WARNINGS -DUSE_FULL_LL_DRIVER -DLR1120MB1DIS-o ./build/lr1120mb1dis/lr11xx_wifi_types_str.o -MD)
+I (..\..\..\common\printers\lr11xx_wifi_types_str.h)(0x64BA814E)
+I (..\..\..\lr11xx_driver\src\lr11xx_wifi_types.h)(0x64BA814E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
